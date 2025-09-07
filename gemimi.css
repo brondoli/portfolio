@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: oklab(23.56% -0.011 -0.14507 / 0.847);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-family:'Poppins', sans-serif ;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(56, 0, 124);
+    padding: 1rem 1rem;
+}
+
+.menu p {
+    font-size: 1.5rem; /* Rendre le nom plus visible */
+}
+
+.menu nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.menu nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    color: white;
+    background-color:#2c3039;
+}
+
+.ajust {
+    text-align: right;
+
+}
+
+.ajust img {
+    max-width: 100%; /* Rendre l'image responsive */
+    height: auto;
+    
+}
+
+#Acceuil {
+    background-color: #1E2532;
+    padding: 2rem; /* Ajouter un peu d'espace */
+
+}
+
+/* --- Règles pour les écrans de moins de 768px (téléphone, tablette) --- */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column; /* Les éléments s'empilent */
+        align-items: center; /* Aligner au centre */
+        text-align: center;
+    }
+
+    .menu p {
+        margin-bottom: 1rem; /* Espace sous le nom */
+    }
+
+    .menu nav ul {
+        flex-direction: column; /* Les liens s'empilent */
+        gap: 0;
+        width: 100%;
+    }
+
+    .menu nav li {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .menu nav a {
+        display: block; /* Rendre le lien plus facile à cliquer */
+    }
+}
+.brondoli{
+    color:#20ff67;
+}
+    .photo-cercle {      
+  width: 200px;         /* taille de l'image */
+  height: 200px;
+  object-fit: cover;    /* pour bien remplir le cercle */
+  border-radius: 50%;   /* c’est ça qui crée le cercle */
+  border: 2px solid #ccc; /* optionnel : une bordure */
+  
+} .second{
+text-align: center;
+}
+.about-text{
+    text-align: right;
+    margin-right: 30px;
+}
+.prenom2{
+    color:#20ff67;
+}
+.prenom3{
+     color:#20ff67;
+}.text{
+    max-width: 10PX;
+}#apropos{
+    margin: 10PX;
+}.title{
+    text-align: center;
+}#ecriture{
+    font-size:1.2em;
+}
+.competences{
+    text-align: center;
+    color:white;
+}
+.skills {
+    background-color:#171d1b6a;
+    text-align: center; /* Centre le titre "Mes Compétences" */
+    padding: 2rem; /* Ajoute de l'espace autour de la section */
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.skills-container {
+    display: flex; /* Active Flexbox pour aligner les boîtes */
+    justify-content: center; /* Centre les boîtes horizontalement */
+    flex-wrap: wrap; /* Permet aux boîtes de passer à la ligne sur mobile */
+    gap: 2rem; /* Espacement entre les deux boîtes */
+}
+
+.box {
+    background-color: #605555; /* Fond blanc */
+    border-radius: 10px; /* Bords arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner du relief */
+    padding: 2rem;
+    width: 100%; /* Par défaut, les boîtes prennent 100% de la largeur */
+    max-width: 450px; /* Sur les grands écrans, limite leur largeur */
+}
+
+/* Styles pour le titre à l'intérieur de la boîte */
+.box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+/* Styles pour chaque ligne de compétence */
+.skill {
+    margin-bottom: 1rem;
+    color:#1E2532
+}
+
+/* Styles pour la barre de progression vide (le fond gris) */
+.progress-bar {
+    background-color: #e0e0e0; /* Couleur du fond gris */
+    height: 10px; /* Hauteur de la barre */
+    border-radius: 5px; /* Bords arrondis */
+    overflow: hidden; /* Cache ce qui dépasse de la barre */
+    margin-top: 0.5rem;
+}
+
+/* Styles pour la barre de remplissage colorée */
+.progress-fill {
+    background-color: #00bcd4; /* Couleur de la barre de progression */
+    height: 100%; /* Prend toute la hauteur de son parent (.progress-bar) */
+}
+
+/* Media Query pour les petits écrans */
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column; /* Les boîtes s'empilent sur les petits écrans */
+        align-items: center; /* Les centre verticalement */
+    }
+}
+
+.fin {
+    background-color: #111214;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* un à gauche, un à droite */
+    align-items: center;
+}
+
+.fin .prenom4 {
+    color: #20ff67;
+}
+
+.fin .right {
+    text-align: left;
+}
+
