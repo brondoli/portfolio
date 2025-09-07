@@ -1,3 +1,40 @@
-body {
-    background-color: rgb(6, 55, 62);
-} 
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.skills{
+  background-color
+}
+
+.menu {
+  color:white; 
+  display: flex;
+  align-items:center;
+  justify-content:space-between ;
+  background-color:rgb(30, 18, 44);
+  padding: 1rem 1rem;
+}
+.menu nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem; /* Espacement entre les éléments du menu */
+}
+.menu nav a {
+  color:white ;
+  display: flex;
+    text-decoration:none ;
+}
+
+.ajust{
+  text-align: right;
+} #Acceuil {
+  background-color:#1E2532;
+}
+.ajust img {
+    max-width: 100%; /* L'image ne dépassera jamais 100% de la largeur de son conteneur */
+    height: auto; /* La hauteur s'ajuste automatiquement pour garder les proportions */
+}
+.prenom{
+  color:green;
+}

@@ -1,0 +1,60 @@
+/* ===== Début Adaptation Formulaire ===== */
+.contact-form {
+    background-color: #2c3039;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 1.5rem;
+    color: #20ff67;
+}
+
+.contact-form form {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto; /* centre horizontalement */
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #005bb5;
+}
+/* ===== Fin Adaptation Formulaire ===== */
